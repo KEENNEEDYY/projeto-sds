@@ -1,12 +1,10 @@
 package com.kennedy.dsvendas.dto;
 
-import java.io.Serializable;
 import java.time.LocalDate;
 
 import com.kennedy.dsvendas.entities.Sale;
 
-public class SaleDTO implements Serializable{
-	private static final long serialVersionUID = 1L;
+public class SaleDTO {
 	
 	private Long id;
 	private Integer visited;
@@ -85,10 +83,5 @@ public class SaleDTO implements Serializable{
 	public void setSeller(SellerDTO seller) {
 		this.seller = seller;
 	}
-
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
-	
 
 }
