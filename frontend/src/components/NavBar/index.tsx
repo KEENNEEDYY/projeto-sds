@@ -5,7 +5,7 @@ const NavBar = () => {
             <div className="container">
                 <nav className="my-2 my-md-0 mr-md-3">
                     <Link to="/">
-                        <h3>Desenvolvedor Kennedy</h3>
+                        <h1>Desenvolvedor Kennedy</h1>
                     </Link>
                 </nav>
             </div>
